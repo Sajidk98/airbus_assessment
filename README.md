@@ -1,3 +1,24 @@
+# Starting the Backend App:
+
+### Prerequisites
+
+Before starting the backend, ensure you have:
+* Docker and Docker Compose installed
+
+### From the project root, run:
+
+```bash
+# Build the Docker images
+docker compose build
+
+# Start containers in detached mode
+docker compose up -d
+```
+
+* Spring Boot app will be accessible at: `http://localhost:8080`
+* PostgreSQL is running on port `5432` and mounted to `./postgres-data`
+
+
 # Shopping Demo App – Design Overview
 
 This document explains the high‑level design of the Shopping Demo backend, focusing on architecture and how concurrency is safely handled when multiple users try to buy the same item at the same time.
