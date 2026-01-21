@@ -4,6 +4,15 @@
 
 Before starting the backend, ensure you have:
 * Docker and Docker Compose installed
+* Steps
+
+- Download Docker Desktop for Windows
+- https://www.docker.com/products/docker-desktop/
+- varify docker and docker compose
+```bash
+docker --version
+docker compose version
+```
 
 ### From the project root, run:
 
